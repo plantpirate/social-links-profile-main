@@ -25,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Site Screenshot](./screenshot.jpg)
+![Site Screenshot](https://github.com/plantpirate/social-links-profile-main/blob/main/assets/images/screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/plantpirate/social-links-profile-main](https://github.com/plantpirate/social-links-profile-main)
+- Live Site URL: [https://plantpirate-social-links-profile.netlify.app/](https://plantpirate-social-links-profile.netlify.app/)
 
 ## My process
 
