@@ -1,0 +1,120 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    padding: 1rem;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    text-align: center;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+.inter-text {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: 
+        "slnt" 0;
+}
+
+
+
+
+
+/*--main content--*/
+body {
+    position: relative;
+    background-color: hsl(0, 0%, 8%);
+    display: grid;
+    place-content: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.developer-container {
+    background-color: hsl(0, 0%, 12%);
+    padding: 1rem;
+    border-radius: .5rem;
+    max-width: 24rem;
+}
+
+    .profile-image {
+        border-radius: 50%;
+        margin: 0 auto;
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .dev-name {
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin-top: 1rem;
+    }
+
+    .dev-locale {
+        color: hsl(75, 94%, 57%);
+        font-weight: 700;
+        font-size: .9rem;
+    }
+
+    .dev-bio {
+        margin: 1rem;
+    }
+
+
+/*--links to socials--*/
+.socials-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: repeat(5, 1fr);
+    font-size: .9rem;
+}
+
+    .link {
+        background-color: hsl(0, 0%, 20%);
+        padding: .5rem;
+        border-radius: .5rem;
+        font-weight: 700;
+    }
+
+    .link:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: black;
+    }
+
+
+/*--footer--*/
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+    }
+    .attribution a { 
+        color: hsl(75, 94%, 57%);
+    }
+
+    .attribution a:hover { 
+        color: hsl(228, 45%, 44%); 
+    }
